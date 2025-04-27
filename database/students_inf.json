@@ -1,50 +1,20 @@
 [
     {
+        "student_id": "PH34567",
+        "name": "Hoang",
+        "age": 34,
+        "major": "fdf"
+    },
+    {
+        "student_id": "PH56789",
+        "name": "Hoang Tang Duc HUY anh",
+        "age": 34,
+        "major": "dfdf"
+    },
+    {
         "student_id": "PH39879",
-        "name": "Alice",
-        "age": 20,
-        "major": "Computer Science"
-    },
-    {
-        "student_id": "PH38639",
-        "name": "Bob",
-        "age": 22,
-        "major": "Mathematics"
-    },
-    {
-        "student_id": "PH32079",
-        "name": "Charlie",
-        "age": 21,
-        "major": "Physics"
-    },
-    {
-        "student_id": "PH33829",
-        "name": "David",
+        "name": "Hoangtd",
         "age": 23,
-        "major": "Engineering"
-    },
-    {
-        "student_id": "PH38491",
-        "name": "Eva",
-        "age": 20,
-        "major": "Biology"
-    },
-    {
-        "student_id": "ph39879",
-        "name": "hoangtd",
-        "age": 34,
-        "major": "cntt"
-    },
-    {
-        "student_id": "oh843",
-        "name": "hoadndr",
-        "age": 23,
-        "major": "sdnrd"
-    },
-    {
-        "student_id": "ashsdh",
-        "name": "sdksd",
-        "age": 34,
-        "major": "dfd"
+        "major": "ANNN"
     }
 ]

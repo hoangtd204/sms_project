@@ -22,5 +22,6 @@ def load_students():
 
 def save_student(students):
     with open(FILE_PATH, 'w', encoding='utf-8') as f:
-         json.dump([s.__dict__ for s in students], f, indent=4, ensure_ascii=False)
+         json.dump([student.to_dict() for student in students], f, indent=4, ensure_ascii=False)
+
 

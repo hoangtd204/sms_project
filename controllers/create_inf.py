@@ -2,6 +2,7 @@ from controllers.read_inf import students
 from database.db import save_student
 from models.student import Student
 from validators.validate_inf import is_duplicate_student_id
+from validators.validate_inf import validate_name
 import re
 def create_student():
     #get_user_input_sid
@@ -14,8 +15,17 @@ def create_student():
             print("This student_id already exists or is empty. Please enter another ID :)")
         else:
             break
+
     #get_user_input_name
-    name = input("Name: ")
+    
+    while True:
+        name = input("Name: ")
+        if name == '' or name == ' ':
+            print("This field cannot be left blank")
+        elif validate_name(name):
+            print("The name cannot be longer than 30 characters")
+        else:
+            break  
 
     # get_user_input_age
     while True:
@@ -33,3 +43,4 @@ def create_student():
     student = Student(sid, name, age, major)
     students.append(student)
     save_student(students)
+    print("Successfully")
