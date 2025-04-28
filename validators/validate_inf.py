@@ -12,3 +12,9 @@ def validate_name(name):
         return False
 
 
+def validate_major(major_input):
+    major_list = ["Biotechnology", "Graphic Design", "Data Science", "Software Engineering", "Cybersecurity","Cloud Computing"]
+    for major in major_list:
+        if major_input == major :
+            return True
+    return False

@@ -1,23 +1,25 @@
 from controllers.read_inf import students
 from database.db import save_student
 from models.student import Student
-from validators.validate_inf import is_duplicate_student_id
-from validators.validate_inf import validate_name
+from validators.validate_inf import is_duplicate_student_id, validate_name, validate_major
+
 import re
+
+
 def create_student():
-    #get_user_input_sid
+    # get_user_input_sid
     while True:
         sid = input("ID: ")
         pattern = r'^PH\d{5}$'
         if not re.match(pattern, sid):
             print("Invalid ID format. Please enter an ID with 8 alphanumeric characters.")
         elif is_duplicate_student_id(sid, students) or sid == '':
-            print("This student_id already exists or is empty. Please enter another ID :)")
+            print(
+                "This student_id already exists or is empty. Please enter another ID :)")
         else:
             break
 
-    #get_user_input_name
-    
+    # get_user_input_name
     while True:
         name = input("Name: ")
         if name == '' or name == ' ':
@@ -25,7 +27,7 @@ def create_student():
         elif validate_name(name):
             print("The name cannot be longer than 30 characters")
         else:
-            break  
+            break
 
     # get_user_input_age
     while True:
@@ -38,8 +40,15 @@ def create_student():
                 print("Age must be between 10 and 100.")
         except ValueError:
             print("Please text an integer ")
+
     # get_user_input_major
-    major = input("Major: ")
+    while True:
+        major = input("Major: ")
+        if validate_major(major):
+            break
+        else:
+            print("The major you entered is incorrect")
+
     student = Student(sid, name, age, major)
     students.append(student)
     save_student(students)

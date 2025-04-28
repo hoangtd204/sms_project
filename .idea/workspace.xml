@@ -5,27 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1c0a2cd9-1dc0-43cb-a7ea-69fca3483ded" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/controllers/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/controllers/create_inf.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/controllers/delete_inf.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/controllers/read_inf.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/controllers/search_inf.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/controllers/update_inf.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/SmsProject.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/SmsProject.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/contronllers/_init_.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/contronllers/create_inf.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/contronllers/delete_inf.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/contronllers/read_inf.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/contronllers/search_inf.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/contronllers/update_inf.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/db.py" beforeDir="false" afterPath="$PROJECT_DIR$/database/db.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/inf.json " beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/controllers/create_inf.py" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/create_inf.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controllers/delete_inf.py" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/delete_inf.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controllers/read_inf.py" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/read_inf.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controllers/search_inf.py" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/search_inf.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controllers/update_inf.py" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/update_inf.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/students_inf.json" beforeDir="false" afterPath="$PROJECT_DIR$/database/students_inf.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/student.py" beforeDir="false" afterPath="$PROJECT_DIR$/models/student.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/validators/validate_inf.py" beforeDir="false" afterPath="$PROJECT_DIR$/validators/validate_inf.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/menu.py" beforeDir="false" afterPath="$PROJECT_DIR$/views/menu.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
