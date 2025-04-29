@@ -1,4 +1,4 @@
-from controllers.read_inf import students
+from Controllers.read_inf import students
 
 
 

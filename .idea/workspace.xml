@@ -5,16 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1c0a2cd9-1dc0-43cb-a7ea-69fca3483ded" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Database/students_inf.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controllers/create_inf.py" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/create_inf.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controllers/delete_inf.py" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/delete_inf.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controllers/read_inf.py" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/read_inf.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controllers/search_inf.py" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/search_inf.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controllers/update_inf.py" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/update_inf.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/students_inf.json" beforeDir="false" afterPath="$PROJECT_DIR$/database/students_inf.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controllers/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/Controllers/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controllers/create_inf.py" beforeDir="false" afterPath="$PROJECT_DIR$/Controllers/create_inf.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controllers/delete_inf.py" beforeDir="false" afterPath="$PROJECT_DIR$/Controllers/delete_inf.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controllers/read_inf.py" beforeDir="false" afterPath="$PROJECT_DIR$/Controllers/read_inf.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controllers/search_inf.py" beforeDir="false" afterPath="$PROJECT_DIR$/Controllers/search_inf.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controllers/update_inf.py" beforeDir="false" afterPath="$PROJECT_DIR$/Controllers/update_inf.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/db.py" beforeDir="false" afterPath="$PROJECT_DIR$/Database/config.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/students_inf.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/validators/validate_inf.py" beforeDir="false" afterPath="$PROJECT_DIR$/validators/validate_inf.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/student.py" beforeDir="false" afterPath="$PROJECT_DIR$/Models/student.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sms_project" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/validators/validate_inf.py" beforeDir="false" afterPath="$PROJECT_DIR$/Validators/validate_inf.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/menu.py" beforeDir="false" afterPath="$PROJECT_DIR$/Views/menu.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,22 +44,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;Python.db.executor&quot;: &quot;Run&quot;,
-    &quot;Python.main.executor&quot;: &quot;Run&quot;,
-    &quot;Python.read_inf.executor&quot;: &quot;Run&quot;,
-    &quot;Python.search_inf.executor&quot;: &quot;Run&quot;,
-    &quot;Python.student.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/hoangtd/PycharmProjects/SmsProject&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Python.db.executor": "Run",
+    "Python.main.executor": "Run",
+    "Python.read_inf.executor": "Run",
+    "Python.search_inf.executor": "Run",
+    "Python.student.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "/home/hoangtd/Documents/training/training-python/trainingday29"
   }
-}</component>
+}]]></component>
   <component name="RunManager" selected="Python.main">
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="SmsProject" />

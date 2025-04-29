@@ -1,7 +1,7 @@
-from controllers.read_inf import students
-from database.db import save_student
-from models.student import Student
-from validators.validate_inf import is_duplicate_student_id, validate_name, validate_major
+from Controllers.read_inf import students
+from Database.config import save_student
+from Models.student import Student
+from Validators.validate_inf import is_duplicate_student_id, validate_name, validate_major
 
 import re
 
@@ -52,4 +52,4 @@ def create_student():
     student = Student(sid, name, age, major)
     students.append(student)
     save_student(students)
-    print("Successfully")
+    print(" Added Successfully!")

@@ -1,0 +1,14 @@
+[
+    {
+        "student_id": "PH39879",
+        "name": "Hoangtd",
+        "age": 45,
+        "major": "Software Engineering"
+    },
+    {
+        "student_id": "PH23456",
+        "name": "Huytd",
+        "age": 45,
+        "major": "Cybersecurity"
+    }
+]

@@ -1,13 +1,13 @@
-from models.student import Student
-from controllers import (read_student, create_student,
+from Models.student import Student
+from Controllers import (read_student, create_student,
                          search_students, update_student, delete_student)
-from views.menu import display_menu
+from Views.menu import display_menu
 
 
 def main():
     while True:
         display_menu()
-        choice = input("Your choice: \n")
+        choice = input("Your choice: ")
         if choice == '1':
             students = read_student()
             print(f"{'Student ID':<15}{'Name':<20}{'Age':<10}{'Major':<20}")

@@ -1,5 +1,5 @@
-from controllers.read_inf import students
-from database.db import save_student
+from Controllers.read_inf import students
+from Database.config import save_student
 
 def delete_student():
     get_sid_to_delete = input("Enter student id to delete: ")
