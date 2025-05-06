@@ -5,21 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1c0a2cd9-1dc0-43cb-a7ea-69fca3483ded" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Database/students_inf.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Controllers/config_input.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controllers/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/Controllers/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controllers/create_inf.py" beforeDir="false" afterPath="$PROJECT_DIR$/Controllers/create_inf.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controllers/delete_inf.py" beforeDir="false" afterPath="$PROJECT_DIR$/Controllers/delete_inf.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controllers/read_inf.py" beforeDir="false" afterPath="$PROJECT_DIR$/Controllers/read_inf.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controllers/search_inf.py" beforeDir="false" afterPath="$PROJECT_DIR$/Controllers/search_inf.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controllers/update_inf.py" beforeDir="false" afterPath="$PROJECT_DIR$/Controllers/update_inf.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/db.py" beforeDir="false" afterPath="$PROJECT_DIR$/Database/config.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/students_inf.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/student.py" beforeDir="false" afterPath="$PROJECT_DIR$/Models/student.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sms_project" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/validators/validate_inf.py" beforeDir="false" afterPath="$PROJECT_DIR$/Validators/validate_inf.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/menu.py" beforeDir="false" afterPath="$PROJECT_DIR$/Views/menu.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controllers/create_inf.py" beforeDir="false" afterPath="$PROJECT_DIR$/Controllers/create_inf.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controllers/search_inf.py" beforeDir="false" afterPath="$PROJECT_DIR$/Controllers/search_inf.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controllers/update_inf.py" beforeDir="false" afterPath="$PROJECT_DIR$/Controllers/update_inf.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Database/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/Database/config.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Database/students_inf.json" beforeDir="false" afterPath="$PROJECT_DIR$/Database/students_inf.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Validators/validate_inf.py" beforeDir="false" afterPath="$PROJECT_DIR$/Validators/validate_inf.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,7 +51,8 @@
     "RunOnceActivity.git.unshallow": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "/home/hoangtd/Documents/training/training-python/trainingday29"
+    "last_opened_file_path": "/home/hoangtd/PycharmProjects/PythonProject",
+    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings"
   }
 }]]></component>
   <component name="RunManager" selected="Python.main">

@@ -1,14 +1,32 @@
 [
     {
-        "student_id": "PH39879",
-        "name": "Hoangtd",
-        "age": 45,
-        "major": "Software Engineering"
+        "student_id": "PH34567",
+        "name": "Huytd",
+        "age": 35,
+        "major": "Biotechnology"
     },
     {
-        "student_id": "PH23456",
-        "name": "Huytd",
+        "student_id": "PH54567",
+        "name": "Hu9td",
+        "age": 38,
+        "major": "Graphic Design"
+    },
+    {
+        "student_id": "PH12345",
+        "name": "Huyrd",
+        "age": 34,
+        "major": "Biotechnology"
+    },
+    {
+        "student_id": "PH56789",
+        "name": "Huyst",
+        "age": 38,
+        "major": "Biotechnology"
+    },
+    {
+        "student_id": "PH34523",
+        "name": "hjif",
         "age": 45,
-        "major": "Cybersecurity"
+        "major": "Biotechnology"
     }
 ]

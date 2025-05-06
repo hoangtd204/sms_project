@@ -1,10 +1,13 @@
-import re
+
 def is_duplicate_student_id(student_id, students):
-    return any(s.student_id == student_id for s in students)
+    student_ids = {s.student_id for s in students}
+    return student_id in student_ids
 
 
-def is_duplicate_student_id_update(student_id, students, exclude_id):
-    return any(s.student_id == student_id for s in students if s.student_id != exclude_id)
+def is_duplicate_student_id_update(new_student_id, students, exclude_id):
+    ids = {s.student_id for s in students if s.student_id != exclude_id}
+    return new_student_id in ids
+
 
 
 def validate_name(name):
